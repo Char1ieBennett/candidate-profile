@@ -60,6 +60,8 @@ python scripts/build_profile.py profile.json --out Profile_<Metro>_<Role>.docx -
 ```
 
 `<Metro>` and `<Role>` with spaces removed, e.g. `Profile_NewYork_StaffSoftwareEngineer.docx`.
+A bare file name is saved to `~/Downloads` (the PDF lands next to it); pass a path to save
+elsewhere. Keep `profile.json` out of Downloads (a scratch or temp folder).
 The script renders the sections in order (header · Professional summary · Core skills ·
 Experience · Education · Certifications / licenses if any · Systems), blanks the file
 author, then re-reads the document and exits `2` with a list of problems if anything banned
@@ -70,7 +72,9 @@ Only dependency: `python-docx` (`pip install python-docx` if missing).
 
 ## 5. Hand back
 
-The .docx and .pdf, one line. No summary of what was done, no notes about the profile. If the
+The .docx and .pdf as clickable markdown links on their full absolute paths, e.g.
+`[Profile_Dayton_SalesExecutive.pdf](/Users/<you>/Downloads/Profile_Dayton_SalesExecutive.pdf)`
+(the script prints the absolute path), one line. No summary of what was done, no notes about the profile. If the
 environment cannot create files, output the resume as plain text in the same section order
 and nothing else.
 

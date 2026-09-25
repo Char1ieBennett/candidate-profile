@@ -232,12 +232,17 @@ def to_pdf(docx_path: Path) -> Path | None:
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("profile", help="profile.json")
-    ap.add_argument("--out", required=True, help="output .docx path (Profile_<Metro>_<Role>.docx)")
+    ap.add_argument("--out", required=True,
+                    help="output .docx (Profile_<Metro>_<Role>.docx); a bare file name is saved to ~/Downloads")
     ap.add_argument("--pdf", action="store_true", help="also convert to PDF with LibreOffice if available")
     a = ap.parse_args()
 
     profile = json.loads(Path(a.profile).read_text())
-    out = Path(a.out)
+    out = Path(a.out).expanduser()
+    if out.parent == Path("."):  # bare file name → ~/Downloads (falls back to the cwd if there is none)
+        downloads = Path.home() / "Downloads"
+        out = (downloads if downloads.is_dir() else Path.cwd()) / out
+    out = out.resolve()
     if out.suffix.lower() != ".docx":
         out = out.with_suffix(".docx")
 

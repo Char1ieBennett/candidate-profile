@@ -23,7 +23,8 @@ Type `/candidate-profile` and paste:
    software engineer with 12 years of experience building platform services for a healthcare
    reimbursement product."*
 
-You get back `Profile_<Metro>_<Role>.docx` and `.pdf`.
+You get back `Profile_<Metro>_<Role>.docx` and `.pdf`, saved to your `Downloads` folder, with a
+clickable link to each.
 
 ## Update
 
