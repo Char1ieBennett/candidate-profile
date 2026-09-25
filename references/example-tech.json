@@ -1,0 +1,50 @@
+{
+  "title": "STAFF SOFTWARE ENGINEER",
+  "specialisms": ["Developer Experience", "CI/CD & Internal Tooling", "Platform Engineering"],
+  "metro": "New York metro area",
+  "years": 11,
+  "summary": "Staff software engineer with 11 years of experience building internal developer tooling and CI/CD pipelines for venture-backed healthcare and data companies. Sets multi-quarter technical direction for a platform group serving 60+ engineers, and owns the build, test and deployment path from commit to production. Works across Python, TypeScript and Go on Kubernetes and AWS, with Airflow and dbt for data workflows, and uses AI coding agents day to day to build and maintain systems. Hands-on, cross-functional and comfortable raising the technical bar through code review, mentoring and standards.",
+  "core_skills": ["Developer Experience", "CI/CD Pipelines", "Internal Tooling", "Technical Strategy", "Platform Engineering", "Kubernetes & AWS", "Data Security & HIPAA", "Mentoring & Code Review"],
+  "roles": [
+    {
+      "title": "Staff Software Engineer",
+      "start": 2022,
+      "end": "Present",
+      "employer_type": "Venture-backed healthcare data platform, ~200 employees",
+      "bullets": [
+        "Leads team-level technical strategy and execution for the developer experience group on multi-quarter horizons, covering build tooling, CI/CD and internal platforms used by 60+ engineers.",
+        "Owns the CI/CD pipeline end to end; cut median commit-to-production time from 55 minutes to under 15 through parallelised builds, test sharding and caching on Kubernetes runners.",
+        "Builds and maintains internal developer tooling with AI coding agents as a core part of the workflow, and sets the standards the wider organisation follows for agent-assisted development.",
+        "Runs the shared infrastructure for Airflow and dbt workloads on AWS, including environments, secrets handling and access controls aligned to HIPAA requirements.",
+        "Uplevels engineers across teams through design reviews, pairing and a written engineering-standards program; mentors senior engineers toward staff scope.",
+        "Partners with security, data and product leads to keep PHI handling, audit logging and least-privilege access consistent across services."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "start": 2018,
+      "end": 2022,
+      "employer_type": "Publicly traded fintech, platform engineering group",
+      "bullets": [
+        "Designed and ran the internal build and release platform for ~40 services in Python, Go and TypeScript, deployed to Kubernetes on AWS.",
+        "Introduced trunk-based development, automated release gating and environment provisioning, reducing failed production deploys by roughly two thirds.",
+        "Built self-service tooling for local environments, feature flags and service scaffolding adopted by every product team.",
+        "Led a cross-team migration from a legacy CI system to a containerised pipeline with no release freeze."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "start": 2015,
+      "end": 2018,
+      "employer_type": "Series B SaaS company, ~80 engineers",
+      "bullets": [
+        "Developed backend services in Python and React front ends for a B2B product, shipping on a two-week release cadence.",
+        "Automated test and deployment steps for the team's services and maintained the shared build configuration.",
+        "Contributed to on-call, incident reviews and the runbooks that came out of them."
+      ]
+    }
+  ],
+  "education": ["Bachelor's degree in Computer Science"],
+  "certifications": [],
+  "systems": ["Python", "TypeScript", "Go", "React", "Kubernetes", "AWS", "Airflow", "dbt", "Claude Code"]
+}

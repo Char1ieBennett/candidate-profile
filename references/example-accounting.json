@@ -1,0 +1,50 @@
+{
+  "title": "PROPERTY & CONSTRUCTION ACCOUNTANT",
+  "specialisms": ["Property Accounting", "Construction Job Cost", "Multi-Entity Close"],
+  "metro": "Minneapolis–St. Paul metro area",
+  "years": 7,
+  "summary": "Property and construction accountant with 7 years of experience in property accounting, construction job cost and multi-entity month-end close for real estate owners and developers. Handles the books for a portfolio of 20+ residential and commercial properties plus related development activity, from AP and AR through reconciliations and ownership reporting. Works in QuickBooks, Yardi and AppFolio with advanced Excel. Independent, deadline-driven and used to being the single accounting resource across several entities.",
+  "core_skills": ["Property Accounting", "Construction Job Cost", "Accounts Payable", "Accounts Receivable", "General Ledger", "Bank & Credit Card Reconciliation", "Tenant / Rent Reconciliation", "Month-End Close"],
+  "roles": [
+    {
+      "title": "Property & Construction Accountant",
+      "start": 2023,
+      "end": "Present",
+      "employer_type": "Real estate and construction company, multi-entity",
+      "bullets": [
+        "Handles day-to-day accounting for 20+ residential and commercial properties across six entities, plus related construction and development activity.",
+        "Maintains property and company general ledgers; records recurring and project-related transactions and intercompany entries.",
+        "Manages AP and AR: vendor and subcontractor invoices, tenant balances, payments and collections follow-up.",
+        "Completes bank and credit card reconciliations monthly; researches discrepancies and outstanding items.",
+        "Tracks construction job costs and codes invoices to project, property or account; prepares draw packages for lenders.",
+        "Prepares monthly property reports and supporting reconciliations for ownership review and supports year-end close with the outside CPA."
+      ]
+    },
+    {
+      "title": "Property Accountant",
+      "start": 2021,
+      "end": 2023,
+      "employer_type": "Property management company, residential and commercial portfolio",
+      "bullets": [
+        "Maintained books across multiple entities for a portfolio of 40+ residential and commercial properties.",
+        "Processed AP and AR; reconciled bank, credit card, tenant and general ledger accounts.",
+        "Prepared monthly reconciliations and reporting schedules and assisted with close procedures.",
+        "Worked with property managers on tenant balances, rent activity, vendor charges and credits."
+      ]
+    },
+    {
+      "title": "Bookkeeper",
+      "start": 2019,
+      "end": 2021,
+      "employer_type": "Residential construction and remodeling business",
+      "bullets": [
+        "Supported bookkeeping, AP, AR, bank and credit card reconciliations and general ledger maintenance.",
+        "Entered vendor invoices, customer receipts, payments and journal entries in QuickBooks.",
+        "Assisted with job-cost tracking and month-end preparation."
+      ]
+    }
+  ],
+  "education": ["Bachelor's degree in Accounting"],
+  "certifications": ["QuickBooks ProAdvisor"],
+  "systems": ["QuickBooks", "Yardi", "AppFolio", "Microsoft Excel", "Microsoft Office"]
+}

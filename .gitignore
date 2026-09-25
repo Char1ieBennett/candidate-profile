@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.docx
+*.pdf
+profile*.json
+!references/*.json
